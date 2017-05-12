@@ -117,8 +117,8 @@ publishing {
                     name 'remoteArtifactory'
                     url "$uploadUrl"
                     credentials{
-                        username=nexusUsername
-                        password=nexusPassword
+                        username="${nexusUsername}"
+                        password="${nexusPassword}"
                     }
                 }
             }
