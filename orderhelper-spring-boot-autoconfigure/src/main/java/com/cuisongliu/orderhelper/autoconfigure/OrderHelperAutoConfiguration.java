@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2017 abel533@gmail.com
+ * Copyright (c) 2017 cuisongliu
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.github.orderhelper.autoconfigure;
+package com.cuisongliu.orderhelper.autoconfigure;
 
 import com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration;
 import org.apache.ibatis.session.SqlSessionFactory;

@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 allprojects {
-    group 'tk.mybatis'
+    group 'com.cuisongliu'
     version = '1.0'
     apply from: "$rootDir/gradle/extra/ext.gradle"
     repositories {
