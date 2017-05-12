@@ -117,8 +117,8 @@ publishing {
                     name 'remoteArtifactory'
                     url "$uploadUrl"
                     credentials{
-                        username="${nexusUsername}"
-                        password="${nexusPassword}"
+                        username= project.hasProperty("nexusUsername") ? nexusUsername : System.getenv("nexusUsername")
+                        password= project.hasProperty("nexusPassword") ? nexusPassword : System.getenv("nexusPassword")
                     }
                 }
             }
