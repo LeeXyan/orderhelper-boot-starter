@@ -122,6 +122,16 @@ publishing {
                     }
                 }
             }
+            repositories{
+                maven {
+                    name 'remoteSnapshotArtifactory'
+                    url "$uploadSnapshotsUrl"
+                    credentials{
+                        username= project.hasProperty("nexusUsername") ? nexusUsername : System.getenv("nexusUsername")
+                        password= project.hasProperty("nexusPassword") ? nexusPassword : System.getenv("nexusPassword")
+                    }
+                }
+            }
         }
     }
 }

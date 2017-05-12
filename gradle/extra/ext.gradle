@@ -32,5 +32,6 @@ ext {
     projectLocation = "https://github.com/cuisongliu/${rootProject.name}"
     baseUrl = "http://maven.cuisongliu.com"
     nexusUrl = "$baseUrl/content/groups/public/"
-    uploadUrl = "$baseUrl/repositories/thirdparty/"
+    uploadUrl = "$baseUrl/content/repositories/releases/"
+    uploadSnapshotsUrl = "$baseUrl/content/repositories/snapshots/"
 }
