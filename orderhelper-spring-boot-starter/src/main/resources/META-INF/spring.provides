@@ -1,0 +1,1 @@
+provides: orderhelper-spring-boot-autoconfigure,orderhelper,pagehelper-spring-boot-autoconfigure,pagehelper,mybatis-spring-boot-autoconfigure,mybatis,mybatis-spring

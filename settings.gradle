@@ -1,0 +1,4 @@
+rootProject.name = 'orderhelper-boot-starter'
+include 'orderhelper-spring-boot-autoconfigure'
+include 'orderhelper-spring-boot-starter'
+

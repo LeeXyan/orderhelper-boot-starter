@@ -1,0 +1,7 @@
+def springBootGroup = "org.springframework.boot"
+
+dependencies {
+    compile "${springBootGroup}:spring-boot-starter:${springBootVersion}"
+    compile "tk.mybatis:orderhelper-spring-boot-autoconfigure:1.0"
+    compile "tk.mybatis:orderby-helper:${orderVersion}"
+}
